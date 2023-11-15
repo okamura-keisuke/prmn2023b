@@ -8,7 +8,7 @@ public class InsertDemo {
         Scanner scan = new Scanner(System.in);
         String gakusekiCode = scan.nextLine();
 
-        System.out.print("その学生の名前は？\n性：");
+        System.out.print("その学生の名前は？\n姓：");
         String familyName= scan.nextLine();
 
         System.out.print("名：");

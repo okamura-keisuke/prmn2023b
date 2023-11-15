@@ -19,8 +19,8 @@ public class PreExamDAO {
             ResultSet result = stmt.executeQuery();
             while (result.next()){
                 String col1 = result.getString("学生コード");
-                String col2 = "null";
-                String col3 = "null";
+                String col2 = "null";//氏
+                String col3 = "null";//名
                 int col4 = result.getInt("得点");
                 PreExam preExam = new PreExam(col1,col2,col3,col4);
                 returning.add(preExam);
